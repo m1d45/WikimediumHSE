@@ -9,54 +9,99 @@
 
     <style media="screen">
       body {
-        padding: 80px 0 40px;
-        font-family: 'PT Sans', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: 'PT Sans', sans-serif;
       }
-      h1, h2, h3, h4, h5, h6, p, ol, ul, hr, blockquote {
-        width: 700px;
-        margin: 0 auto;
+
+      a {
+      color: inherit;
       }
-      p {
-        font-size: 22px;
-        line-height: 46px;
-        margin: 10px auto;
+
+      h1, h2, h3, p, ul, blockquote {
+      width: 700px;
+      margin: 0 auto;
       }
+
+      h1, h2, h3 {
+      font-family: 'PT Sans Caption', sans-serif;
+      font-weight: bold;
+      }
+
       h1 {
-        font-size: 42px;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-weight: bold;
-        line-height: 48px;
+      margin-top: 67px;
+      font-size: 38px;
+      line-height: 45px;
       }
+
       h1 + p {
-        font-size: 24px;
-        color: grey;
-        margin: 36px auto 52px;
-        line-height: 40px;
+      margin-top: 8px;
+      font-family: 'PT Sans Caption', sans-serif;
+      font-size: 22px;
+      line-height: 32px;
+      color: rgba(0,0,0,.4);
       }
-      img {
-        display: block;
-        width: 1020px;
-        margin: 0 auto;
+
+      h1 + p + p {
+      margin-top: 30px;
       }
+
+      h2 {
+      margin-top: 43px;
+      font-size: 32px;
+      line-height: 36px;
+      color: rgba(0, 0, 0, .8);
+      }
+
+      h2 + p,
+      h2 + blockquote {
+      margin-top: 7px;
+      }
+
+      h3 {
+      margin-top: 36px;
+      font-size: 28px;
+      line-height: 34px;
+      color: rgba(0, 0, 0, .8);
+      }
+
+      h3 + p,
+      h3 + blockquote {
+      margin-top: 6px;
+      }
+
+      p, blockquote, li {
+      margin-top: 29px;
+      font-size: 20px;
+      line-height: 34px;
+      }
+
       blockquote {
-        font-family: 'PT Sans', sans-serif;
-        color: #999;
-        font-size: 20px;
-        line-height: 36px;
-        font-style: italic;
-        font-weight: 100;
-        border-left: 3px solid #999;
-        padding: 0 20px 0 17px;
+      font-style: italic;
       }
-      li {
-        position: relative;
-        margin-left: 20px;
-        font-size: 20px;
-        height: 26px;
+
+      img {
+      display: block;
+      width: 1020px;
+      margin: 79px auto 0;
       }
-      ol ol {
-        position: relative;
-        padding-left: 20px;
+
+      img + h2 {
+      margin-top: 79px;
+      }
+
+      img + p,
+      img + blockquote,
+      img + ul {
+      margin-top: 77px;
+      }
+
+      h2 + img {
+      margin-top: 82px;
+      }
+
+      h3 + img {
+      margin-top: 81px;
       }
     </style>
   </head>
